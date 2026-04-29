@@ -34,6 +34,7 @@ public class Saucedemo_homepage {
 
 		 driver.manage().window().maximize();
 		 driver.get("https://www.saucedemo.com/");
+		 driver.navigate().refresh();
 		 
 	  }
 
